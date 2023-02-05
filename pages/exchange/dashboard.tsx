@@ -42,7 +42,7 @@ async function listenMessages(dispatch: any, user: any) {
   //@ts-ignore
   window.Echo = new Echo({
     broadcaster: "pusher",
-    key: "test",
+    key: "be839474ba3f39029cda724616dad5a26988a06070fe26b5d7a428bbe1656c33",
     wsHost: process.env.NEXT_PUBLIC_HOST_SOCKET,
     wsPort: 6006,
     wssPort: 443,
