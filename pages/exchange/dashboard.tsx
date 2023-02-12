@@ -42,12 +42,12 @@ async function listenMessages(dispatch: any, user: any) {
   //@ts-ignore
   window.Echo = new Echo({
     broadcaster: "pusher",
-    key: "be839474ba3f39029cda724616dad5a26988a06070fe26b5d7a428bbe1656c33",
+    key: process.env.NEXT_PUBLIC_SECRET_KEY,
     wsHost: process.env.NEXT_PUBLIC_HOST_SOCKET,
     wsPort: 6006,
     wssPort: 443,
     forceTLS: false,
-    cluster: "mt1",
+    cluster: "eu",
     disableStats: true,
     enabledTransports: ["ws", "wss"],
   });
