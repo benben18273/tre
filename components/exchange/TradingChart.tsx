@@ -26,7 +26,6 @@ export class TVChartContainer extends React.Component<MyProps> {
     interval: "15",
     containerId: "tv_chart_container",
     libraryPath: "/static/charting_library/",
-    datafeedUrl: 'https://demo_feed.tradingview.com',
     chartsStorageUrl: "https://saveload.tradingview.com",
     chartsStorageApiVersion: "1.1",
     clientId: "tradingview.com",
